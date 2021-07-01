@@ -3,7 +3,7 @@ function consumoHora(potencia){
 	return potencia/1000;
 }
 
-//recebe o valor da conta e a quantidade de kw/h concumido na mesma conta
+//recebe o valor da conta e a quantidade de kw/h consumido na mesma conta
 function precoKwHora(valorConta, qtdKwhConsumidos){
 	return valorConta/qtdKwConsumidos;
 }
