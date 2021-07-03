@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo de energia</title>
+    <style>
+        form {
+            justify-self: center;
+            display: grid;
+            justify-content: center;
+            align-items: center
+        }
+
+        .inputComponent {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        button {
+            background-color: #006ce5;
+            border-radius: 3px;
+            font-size: 18px;
+            margin-top: 40%;
+            text-align: center;
+            width: 50%;
+            color: white;
+            border: none;
+        }
+
+        input {
+            border-radius: 3px;
+            width: 95%;
+        }
+        #botao{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="inputComponent">
+            <label for="potencia">Qual a potência do dispositivo?</label> <br>
+            <input type="number" name="potencia" id="potencia" placeholder="220w">
+        </div>
+
+        <div class="inputComponent">
+            <label for="valorUltimaContas">Qual o valor da sua última conta de energia?</label> <br>
+            <input type="number" name="valorUltimaContas" id="valorUltimaContas" placeholder="R$ 200,00">
+        </div>
+        <div class="inputComponent">
+            <label for="qtdKwhConsumidos">Quantos Kw/h você consumiu nessa conta?</label> <br>
+            <input type="number" name="qtdKwhConsumidos" id="qtdKwhConsumidos" placeholder="5 Kw/h">
+        </div>
+
+        <div class="inputComponent">
+            <label for="qtdHorasLigado">Quantas horas esse dispositivo fica ligado?</label> <br>
+            <input type="number" name="qtdHorasLigado" id="qtdHorasLigado" placeholder="5 horas">
+        </div>
+        <div id="botao">
+            <button type="submit">Calcular</button>
+        </div>
+    </form>
+</body>
+
+</html>
