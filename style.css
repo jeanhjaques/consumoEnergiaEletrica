@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Alata', sans-serif;
+}
+form {
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    align-items: center
+}
+
+.inputComponent {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#formulario{
+    display: block;
+}
+
+#formulario button {
+    background-color: #006ce5;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 3%;
+    text-align: center;
+    width: 100px;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #222222, -13px 22px 15px 0px rgba(209, 209, 209, 0.63);
+    box-shadow: 0px 10px 13px -7px #222222, -13px 22px 15px 0px rgba(209, 209, 209, 0.63);
+}
+
+input {
+    border-radius: 3px;
+    width: 95%;
+    -webkit-box-shadow: 0px 10px 13px -7px #222222, -13px 22px 15px 0px rgba(209, 209, 209, 0.63);
+    box-shadow: 0px 10px 13px -7px #222222, -13px 22px 15px 0px rgba(209, 209, 209, 0.63);
+    border-color: #006ce5;
+    border-width: 1px;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Alata', sans-serif;
+}
+
+
+#botao {
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    background: none;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    align-self: center;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+#resultado{
+    display: none;
+}
+#resultado h1{
+    text-align: center;
+    color: #006ce5;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+#resultado p{
+    color: #81D452;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+#resultado button{
+    background-color: #006ce5;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    align-self: center;
+    border-style: none;
+    padding: 7px;
+    -webkit-box-shadow: 0px 10px 13px -7px #222222, -13px 22px 15px 0px rgba(209, 209, 209, 0.63);
+    box-shadow: 0px 10px 13px -7px #222222, -13px 22px 15px 0px rgba(209, 209, 209, 0.63);
+}
+#botaore{
+    text-align: center;
+}
